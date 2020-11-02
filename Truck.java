@@ -1,14 +1,16 @@
-abstract class Vehicle {
+package GITProjects;
+
+abstract class Vehicle1 {
     private char vehicleType;
     public abstract void move ();
 }
 
-public class Truck extends Vehicle {
+public class Truck1 extends Vehicle1 {
     private int truckNo;
 
 
     public static void main(String args[]) {
-        Truck mahindra= new Truck();
+        Truck1 mahindra= new Truck1();
         mahindra.move();
     }
 
